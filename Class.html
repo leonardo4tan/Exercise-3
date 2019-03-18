@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <title>Classroom3</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+</head>
+<body>
+    <script type='text/javascript'>
+
+    let hewan= ['kelinci', 'buaya', 'kadal', 'ular']
+    function tampil(deret){
+        for (i=0; i<deret.length; i++){
+            console.log(deret[i]);
+        }
+    }
+    // function tambahakhir(deret, tambahan){
+    //     let i = deret.length;
+    //     deret[i] = tambahan;
+    //     return deret;
+    // }
+   
+    
+    function kurangakhir(deret){
+        let i = deret.length-1;
+        deret[i] = '';
+        return deret;
+    }
+
+    tampil(hewan)
+    
+    console.log('=========')
+   
+    kurangakhir(hewan)
+    tampil(hewan);
+    </script>
+</body>
+</html>
